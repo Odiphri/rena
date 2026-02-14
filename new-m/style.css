@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 0, 0);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.title{
+    color: #555b68c5;
+    font-size: 2.5rem;
+}
+
+
+div{
+    display: flex;
+    background: rgb(18, 18, 18);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(128, 92, 92, 0.1);
+    max-width: 70vh;
+    flex-direction: column;
+    max-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    line-height: 1;
+    padding: 9vh;
+}
+
+div p{
+    color: #7285adc5;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+div label{
+    display: flex;
+    color: #7285adc5;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    text-align: right;
+    margin-top: 2vh;
+}
+
+div input{
+    padding: 1vh;
+    border: 0.1rem solid #7285adc5;
+    border-radius: 9px;
+    background: rgb(18, 18, 18);
+    height: 7vh;
+    color: #393b53;
+    font-size: 1.2rem;
+    padding: 2vh;
+    width: 100%;
+}
+
+div button{
+    margin-top: 3vh;
+    padding: 1vh;
+    border: none;
+    border-radius: 9px;
+    background: #7285adc5;
+    color: rgb(18, 18, 18);
+    font-size: 1.2rem;
+    cursor: pointer;
+    height: 7vh;
+    width: 100%;
+}
+
+div button:hover{
+    background: #7285ad;
+    color: rgb(18, 18, 18);
+}
+
+.signup-link{
+    margin-top: 2vh;
+    font-size: 1rem;
+    color: #7285adc5;
+}
+
+div a{
+    margin-top: 2vh;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #7285adc5;
+}
